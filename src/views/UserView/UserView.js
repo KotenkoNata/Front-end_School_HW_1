@@ -73,7 +73,7 @@ const UserView = () => {
       {userDetails.loading ? (
         <Loading />
       ) : (
-        <UserProfile key={userDetails.data.id} name={name} userDetails={userDetails.data} />
+        <UserProfile name={name} userDetails={userDetails.data} />
       )}
       {trendingVideos.loading ? (
         <Loading />
