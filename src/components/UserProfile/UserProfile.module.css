@@ -1,0 +1,54 @@
+.mainContainer {
+  margin-top: 30px;
+}
+
+.userContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  margin-right: 20px;
+}
+
+.nameContainer {
+  margin-left: 20px;
+}
+
+.userName {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.userNickname {
+  font-size: 18px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.listFollow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.listFollow > li {
+  margin-right: 10px;
+}
+
+.listFollowNumber {
+  font-weight: bold;
+}
+
+.userSignature {
+  text-align: center;
+}
